@@ -13,7 +13,7 @@ from PIL import ImageStat, Image
 import cv2
 
 # --- Telegram Bot Config ---
-TELEGRAM_BOT_TOKEN = '7844277836:AAFZau0vvjX95H2Mdg3-QYaOcymSbEHtxfc'
+TELEGRAM_BOT_TOKEN = '****'
 TELEGRAM_CHAT_ID = '1206974757'
 
 

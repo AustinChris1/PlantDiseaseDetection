@@ -17,13 +17,40 @@ We used the **PlantVillage Dataset**, which contains thousands of labeled images
 📥 Download the dataset here:  
 👉 [PlantVillage Dataset on Kaggle](https://www.kaggle.com/datasets/mohitsingh1804/plantvillage/code)
 
+Or download using
+```
+# 1. Install the Kaggle API
+pip install kaggle
+
+# 2. Create the Kaggle directory to store your API key
+mkdir -p ~/.kaggle
+
+# 3. Add your Kaggle API credentials (replace with your actual username and key)
+echo '{"username":"iwuaustinchris","key":"2259848aa102039244299f551234da67"}' > ~/.kaggle/kaggle.json
+
+# 4. Set proper file permissions for the API key
+chmod 600 ~/.kaggle/kaggle.json
+
+# 5. Download the PlantVillage dataset from Kaggle
+kaggle datasets download -d mohitsingh1804/plantvillage
+
+# 6. Unzip the downloaded dataset
+unzip plantvillage.zip -d PlantVillage
+```
+
+---
+## Install requirements
+
+```
+pip install numpy pandas matplotlib seaborn tensorflow tensorflow-addons efficientnet tensorflow-hub kaggle kagglehub opencv-python
+```
 ---
 
 ## 🖼️ Image Previews
 
 ### 🔧 Hardware Prototype
 
-This is what the hardware robot with the ESP32-CAM looks like:
+This is what the hardware robot with the ESP32-CAM should look like:
 
 ![Hardware device](Sample.jpeg)
 
