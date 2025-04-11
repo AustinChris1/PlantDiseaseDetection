@@ -26,7 +26,7 @@ pip install kaggle
 mkdir -p ~/.kaggle
 
 # 3. Add your Kaggle API credentials (replace with your actual username and key)
-echo '{"username":"iwuaustinchris","key":"2259848aa102039244299f551234da67"}' > ~/.kaggle/kaggle.json
+echo '{"username":"xxx","key":"xxx"}' > ~/.kaggle/kaggle.json
 
 # 4. Set proper file permissions for the API key
 chmod 600 ~/.kaggle/kaggle.json
